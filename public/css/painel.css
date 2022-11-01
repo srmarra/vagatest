@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+.logout{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid red;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.AreaProdutos{
+    width: clamp(100px, 90%, 900px);
+    height: 500px;
+    background-color: white;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.459));
+    margin: 100px auto 0 auto;
+}
+
+.AreaProdutos section:first-of-type{
+    width: 100%;
+    height: 50px;
+    border-bottom: 3px solid red;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.AreaProdutos section:first-of-type img{
+    cursor: pointer;
+}
+
+.AreaProdutos section:last-of-type{
+    width: 90%;
+    height: 85%;
+    overflow: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.AreaProdutos section:last-of-type div{
+    width: 200px;
+    height: 220px;
+    background-color: white;
+    filter: drop-shadow(7px 7px 10px rgba(0, 0, 0, 0.421));
+    display: block;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+
+.AreaProdutos section:last-of-type div h2{
+    font-size: 17px;
+}
+
+.AreaProdutos section:last-of-type div button{
+    background-color: red;
+    border: none;
+    font-weight: 600;
+    padding: 4px 10px;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.AreaProdutos section:last-of-type div p{
+    font-size: 10px;
+}
+
+.AreaProdutos section:last-of-type div img{
+    max-width: 100%;
+    margin: 0 auto;
+    max-height: 150px;
+    display: block;
+}

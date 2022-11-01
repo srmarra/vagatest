@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+a{
+    color: black;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
+body{
+
+}
+
+.AreaLogin{
+    background-color: white;
+    filter: drop-shadow(7px 7px 20px rgba(0, 0, 0, 0.44));
+    width: 400px;
+    margin: 100px auto 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.AreaLogin p{
+    height: 0;
+    text-align: center;
+    color: red;
+}
+
+
+
+.AreaLogin form input:first-of-type{
+
+}
+
+.AreaLogin form input{
+    display: block;
+    margin: 27px auto 27px auto;
+    width: 80%;
+    height: 25px;
+    filter: drop-shadow(7px 7px 10px rgba(0, 0, 0, 0.44));
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.AreaLogin form input[type=submit]{
+    background-color: red;
+    border: none;
+    color: white;
+    width: 139px;
+    height: 29px;
+    font-weight: 900;
+}
